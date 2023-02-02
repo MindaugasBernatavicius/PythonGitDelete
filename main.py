@@ -1,4 +1,5 @@
 import yaml
+import requests
 import logging.config
 from src.helper_functions import add, multiply
 
