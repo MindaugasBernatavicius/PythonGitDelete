@@ -1,4 +1,5 @@
 .idea
 .venv
 logs/main.log
+config/main.yml
 __pycache__

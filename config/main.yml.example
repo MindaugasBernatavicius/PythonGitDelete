@@ -1,9 +1,9 @@
 application:
-  aws_secret_user: user1
-  aws_secret_pass: sgrgr
+  aws_secret_user: <user>
+  aws_secret_pass: <pass>
 database:
-  user: x
-  pass: y
+  user: <user>
+  pass: <pass>
 logging:
   version: 1
   formatters:
