@@ -4,6 +4,9 @@ application:
 database:
   user: <user>
   pass: <pass>
+gcp:
+  user: <user>
+  pass: <pass>
 logging:
   version: 1
   formatters:
