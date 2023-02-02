@@ -1,2 +1,22 @@
-aws_secret_user: user1
-aws_secret_pass: sgrgr
+application:
+  aws_secret_user: user1
+  aws_secret_pass: sgrgr
+database:
+  user: x
+  pass: y
+logging:
+  version: 1
+  formatters:
+    default:
+      format: '%(asctime)s %(levelname)-8s [%(name)s] %(message)s'
+      datefmt: '%Y-%m-%d %H:%M:%S'
+  handlers:
+    file:
+      class: logging.FileHandler
+      level: DEBUG
+      formatter: default
+      filename: logs/main.log
+  loggers:
+    main:
+      level: DEBUG
+      handlers: [ file ]
